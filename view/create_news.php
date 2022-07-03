@@ -5,7 +5,7 @@ if (isset($_POST['Submit'])) {
     // foreach ($_POST['hashtag'] as $selected) {
     //     echo $selected . "</br>";
     // }
-    header("Location: list_news.php");
+    header("Location: read_news.php");
     exit;
 }
 ?>
